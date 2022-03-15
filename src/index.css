@@ -1,11 +1,15 @@
 * {
-  margin: 0;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
+  
+  max-width: 400px;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
 }
 
 .app {
@@ -13,6 +17,7 @@ body {
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease;
+  
 }
 
 .app.warm {
@@ -20,6 +25,7 @@ body {
 }
 
 main {
+  
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
   padding: 25px;
@@ -27,7 +33,7 @@ main {
 
 .search-box {
   width: 100%;
-  margin: 0 0 75px;
+  margin: 25px 0 75px;
 }
 
 .search-box .search-bar {
@@ -41,7 +47,7 @@ main {
   outline: none;
 
   background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 0px 0px 16px 16px;
+  border-radius: 16px 16px 16px 16px;
   margin-top: -25px;
 
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
